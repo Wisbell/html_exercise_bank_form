@@ -9,30 +9,34 @@
 		<h1>And Its Gone! Bank</h1>
 		<h2 id="motto">Give us your money . . . And its gone!</h2>
 	</header>
+
+	<hr>
 	
 	
 	<form action="#" method="post">
 
-		<fieldset>
+		<fieldset id="contact_info">
+
 			<legend>Contact Information</legend>
 
-			<label for="first">First Name<input type="text" name="first_name" id="first"></label><br>
+			<label for="first">First Name <input type="text" name="first_name" id="first"></label><br>
 
-			<label for="middle">Middle Initial<input type="text" name="first_name" id="middle"></label><br>
+			<label for="middle">Middle Initial <input type="text" name="first_name" id="middle"></label><br>
 
-			<label for="last">Last Name<input type="text" name="first_name" id="last"></label><br>
+			<label for="last">Last Name <input type="text" name="first_name" id="last"></label><br>
 
-			<label for="last">Address<input type="text" name="first_name" id="last"></label><br>
+			<label for="last">Address <input type="text" name="first_name" id="last"></label><br>
 
-			<label for="last">Occupation<input type="text" name="first_name" id="last"></label><br>
+			<label for="last">Occupation <input type="text" name="first_name" id="last"></label><br>
 
-			<label for="last">Employer<input type="text" name="first_name" id="last"></label><br>
+			<label for="last">Employer <input type="text" name="first_name" id="last"></label><br>
 
-			<label for="last">Employer Address<input type="text" name="first_name" id="last"></label><br>
+			<label for="last">Employer Address <input type="text" name="first_name" id="last"></label><br>
 
 		</fieldset>
 
-		<fieldset>
+		<fieldset id="loan_info">
+
 			<legend>Loan Information</legend>
 
 			<label>Type of Loan</label>
@@ -50,27 +54,32 @@
 			<label><input type="radio" name="loan_length" value="ten_years" id="loan_length">10 Years</label>
 			<label><input type="radio" name="loan_length" value="fifteen_years" id="loan_length">15 Years</label><br>
 
-			<label>Special Conditions</label>
-			<input type="checkbox" name="conditions" value="down_payment" id="down_payment"> <label for="down_payment">Do you have a down payment.</label>
-			<input type="checkbox" name="conditions" value="out_of_state" id="out_of_state"> <label for="out_of_state">Are you and out-of-state resident?</label>
-			<input type="checkbox" name="conditions" value="married" id="married"><label for="married">Are you married?</label>
-			<input type="checkbox" name="conditions" value="cosigner" id="cosigner"> <label for="cosigner">Do you have a cosigner for your loan?</label>
-
-		
+			<label>Special Conditions</label><br>
+			<input type="checkbox" name="conditions" value="down_payment" id="down_payment"> <label for="down_payment">Do you have a down payment.</label><br>
+			<input type="checkbox" name="conditions" value="out_of_state" id="out_of_state"> <label for="out_of_state">Are you and out-of-state resident?</label><br>
+			<input type="checkbox" name="conditions" value="married" id="married"><label for="married">Are you married?</label><br>
+			<input type="checkbox" name="conditions" value="cosigner" id="cosigner"> <label for="cosigner">Do you have a cosigner for your loan?</label><br>
 
 		</fieldset>
 
-	
+		<fieldset id="additional_info">
+			<legend>Additional Information</legend>
 
-		<div>Additional Comments<input type="text" name="first_name"></div>
-	
-		
-		<span>Additonal Comments</span><br>
-		<textarea name="comments"></textarea><br>
-		<span>Email Address </span><input type="text" name="email_address"><br>
-		<span>Telephone Number</span><input type="text" name="telephone"><br>
-		<span>LinkedIn URL </span><input type="text" name="linked_in_url"><br>
-		<button type="submit">Don't Click This</button>
+			<label>Additonal Comments</label><br>
+
+			<textarea></textarea><br>
+
+			<label for="first">Email Address<input type="text" name="first_name" id="first"></label><br>
+
+			<label for="first">Telephone Number<input type="text" name="first_name" id="first"></label><br>
+
+			<label for="first">LinkedIn URL<input type="text" name="first_name" id="first"></label><br>
+			
+
+		</fieldset>
+		<button type="submit">Don't Click This Dummy!</button><br>
+		<span>There's no server side to process it</span>
+
 	</form>
 
 </body>
