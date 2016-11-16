@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Give us your money!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>The Big Bank</h1>
+		<h2 id="motto">Give us your money . . . And its gone!</h2>
+	</header>
+	
+	
+	<form action="#" method="post">
+		<span>First Name </span><input type="text" name="first_name"><br>
+		<span>Middle Initial </span><input type="text" name="middle_name"><br>
+		<span>Last Name </span><input type="text" name="last_name"><br>
+		<span>Address </span><input type="text" name="address"><br>
+		<span>Occupation </span><input type="text" name="occupation"><br>
+		<span>Employer </span><input type="text" name="employer"><br>
+		<span>Employer Address </span><input type="text" name="employer_address"><br>
+		<span>Type of Loan </span>
+		<select>
+			<option value="commercial">Commercial</option>
+			<option value="real_estate">Real Estate</option>
+			<option value="personal">Personal</option>
+			<option value="mortgage">Mortgage</option>
+		</select><br>
+		<span>Requested Loan Amount </span><input type="text" name="requested_amount"><br>
+		<span>Loan Length</span>
+		<input type="radio" name="loan_length" value="five_years"><span>5 Years</span>
+		<input type="radio" name="loan_length" value="ten_years"><span>10 Years</span>
+		<input type="radio" name="loan_length" value="fifteen_years"><span>15 Years</span><br>
+		<span>Special Conditions</span><br>
+		<input type="checkbox" name="conditions" value="down_payment">
+		<span>Do you have a down payment.</span><br>
+		<input type="checkbox" name="conditions" value="out_of_state">
+		<span>Are you and out-of-state resident?</span><br>
+		<input type="checkbox" name="conditions" value="married">
+		<span>Are you married?</span><br>
+		<input type="checkbox" name="conditions" value="cosigner">
+		<span>Do you have a cosigner for your loan?</span><br>
+		<span>Additonal Comments</span><br>
+		<textarea name="comments"></textarea><br>
+		<span>Email Address </span><input type="text" name="email_address"><br>
+		<span>Telephone Number</span><input type="text" name="telephone"><br>
+		<span>LinkedIn URL </span><input type="text" name="linked_in_url"><br>
+		<button type="submit">Don't Click This</button>
+	</form>
+
+</body>
+</html>
