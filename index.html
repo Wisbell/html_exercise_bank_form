@@ -6,40 +6,65 @@
 </head>
 <body>
 	<header>
-		<h1>The Big Bank</h1>
+		<h1>And Its Gone! Bank</h1>
 		<h2 id="motto">Give us your money . . . And its gone!</h2>
 	</header>
 	
 	
 	<form action="#" method="post">
-		<span>First Name </span><input type="text" name="first_name"><br>
-		<span>Middle Initial </span><input type="text" name="middle_name"><br>
-		<span>Last Name </span><input type="text" name="last_name"><br>
-		<span>Address </span><input type="text" name="address"><br>
-		<span>Occupation </span><input type="text" name="occupation"><br>
-		<span>Employer </span><input type="text" name="employer"><br>
-		<span>Employer Address </span><input type="text" name="employer_address"><br>
-		<span>Type of Loan </span>
-		<select>
-			<option value="commercial">Commercial</option>
-			<option value="real_estate">Real Estate</option>
-			<option value="personal">Personal</option>
-			<option value="mortgage">Mortgage</option>
-		</select><br>
-		<span>Requested Loan Amount </span><input type="text" name="requested_amount"><br>
-		<span>Loan Length</span>
-		<input type="radio" name="loan_length" value="five_years"><span>5 Years</span>
-		<input type="radio" name="loan_length" value="ten_years"><span>10 Years</span>
-		<input type="radio" name="loan_length" value="fifteen_years"><span>15 Years</span><br>
-		<span>Special Conditions</span><br>
-		<input type="checkbox" name="conditions" value="down_payment">
-		<span>Do you have a down payment.</span><br>
-		<input type="checkbox" name="conditions" value="out_of_state">
-		<span>Are you and out-of-state resident?</span><br>
-		<input type="checkbox" name="conditions" value="married">
-		<span>Are you married?</span><br>
-		<input type="checkbox" name="conditions" value="cosigner">
-		<span>Do you have a cosigner for your loan?</span><br>
+
+		<fieldset>
+			<legend>Contact Information</legend>
+
+			<label for="first">First Name<input type="text" name="first_name" id="first"></label><br>
+
+			<label for="middle">Middle Initial<input type="text" name="first_name" id="middle"></label><br>
+
+			<label for="last">Last Name<input type="text" name="first_name" id="last"></label><br>
+
+			<label for="last">Address<input type="text" name="first_name" id="last"></label><br>
+
+			<label for="last">Occupation<input type="text" name="first_name" id="last"></label><br>
+
+			<label for="last">Employer<input type="text" name="first_name" id="last"></label><br>
+
+			<label for="last">Employer Address<input type="text" name="first_name" id="last"></label><br>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Loan Information</legend>
+
+			<label>Type of Loan</label>
+			<select>
+				<option value="commercial">Commercial</option>
+				<option value="real_estate">Real Estate</option>
+				<option value="personal">Personal</option>
+				<option value="mortgage">Mortgage</option>
+			</select><br>
+
+			<label for="last">Requested Loan Amount<input type="text" name="first_name" id="last"></label><br>
+
+			<label>Loan Length</label>
+			<label><input type="radio" name="loan_length" value="five_years" id="loan_length">5 Years</label>
+			<label><input type="radio" name="loan_length" value="ten_years" id="loan_length">10 Years</label>
+			<label><input type="radio" name="loan_length" value="fifteen_years" id="loan_length">15 Years</label><br>
+
+			<label>Special Conditions</label>
+			<input type="checkbox" name="conditions" value="down_payment" id="down_payment"> <label for="down_payment">Do you have a down payment.</label>
+			<input type="checkbox" name="conditions" value="out_of_state" id="out_of_state"> <label for="out_of_state">Are you and out-of-state resident?</label>
+			<input type="checkbox" name="conditions" value="married" id="married"><label for="married">Are you married?</label>
+			<input type="checkbox" name="conditions" value="cosigner" id="cosigner"> <label for="cosigner">Do you have a cosigner for your loan?</label>
+
+		
+
+		</fieldset>
+
+	
+
+		<div>Additional Comments<input type="text" name="first_name"></div>
+	
+		
 		<span>Additonal Comments</span><br>
 		<textarea name="comments"></textarea><br>
 		<span>Email Address </span><input type="text" name="email_address"><br>
